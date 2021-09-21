@@ -19,10 +19,10 @@ topics:
   timeout : 0.5
   priority: 50
 
-- name    : external
+- name    : kb_teleop
   topic   : cmd_vel
   timeout : 0.5
-  priority: 1
+  priority: 200
 
 locks:
 - name    : e_stop
